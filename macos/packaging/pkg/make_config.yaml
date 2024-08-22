@@ -1,0 +1,3 @@
+install-path: /Applications
+#sign-identity: "3rd Party Mac Developer Installer: hao chen (6VSVN4QM6H)"
+sign-identity: "Developer ID Installer: hao chen (6VSVN4QM6H)"

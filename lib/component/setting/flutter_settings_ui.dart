@@ -1,0 +1,9 @@
+export 'package:flutter_pasteboard/component/setting/src/list/settings_list.dart';
+export 'package:flutter_pasteboard/component/setting/src/sections/abstract_settings_section.dart';
+export 'package:flutter_pasteboard/component/setting/src/sections/custom_settings_section.dart';
+export 'package:flutter_pasteboard/component/setting/src/sections/settings_section.dart';
+export 'package:flutter_pasteboard/component/setting/src/tiles/abstract_settings_tile.dart';
+export 'package:flutter_pasteboard/component/setting/src/tiles/custom_settings_tile.dart';
+export 'package:flutter_pasteboard/component/setting/src/tiles/settings_tile.dart';
+export 'package:flutter_pasteboard/component/setting/src/utils/platform_utils.dart';
+export 'package:flutter_pasteboard/component/setting/src/utils/settings_theme.dart';

@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.9.22'
+}
+
+group 'com.bbflight.background_downloader'
+version '1.0-SNAPSHOT'
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+android {
+    compileSdk 34
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        minSdkVersion 24
+    }
+    if (project.android.hasProperty("namespace")) { namespace 'com.bbflight.background_downloader' }
+
+
+}
+
+dependencies {
+    implementation "androidx.work:work-runtime-ktx:2.9.0"
+    implementation "androidx.concurrent:concurrent-futures-ktx:1.1.0"
+    implementation "androidx.preference:preference-ktx:1.2.1"
+    implementation "androidx.core:core-ktx:1.12.0"
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
+    implementation 'androidx.test:monitor:1.6.1'
+    testImplementation "junit:junit:4.13.2"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.1"
+}
+repositories {
+    mavenCentral()
+}
