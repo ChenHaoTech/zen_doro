@@ -38,5 +38,5 @@ An open-source, cross-platform Pomodoro timer based on the flowtime-technique.
 So, I created Zendoro.  
 
 ## Feedback / Contact Us
-Feedback Form: https://t2bj3wxiaa.feishu.cn/share/base/form/shrcnG4NY19N0IfVRkyuh0iWm7f
-Contact Us: cardztec@gmail.com
+- Feedback Form: https://t2bj3wxiaa.feishu.cn/share/base/form/shrcnG4NY19N0IfVRkyuh0iWm7f
+- Contact Us: cardztec@gmail.com
