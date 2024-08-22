@@ -1,0 +1,875 @@
+#: ./lib/misc/guide/guide_data.dart:14
+msgid "[模板] 学习时间管理技巧 #学习"
+msgstr ""
+
+#: ./lib/misc/guide/guide_data.dart:28
+msgid "学习"
+msgstr ""
+
+#: ./lib/misc/guide/guide_data.dart:26
+msgid "[模板] 学习番茄工作法 #学习"
+msgstr ""
+
+#: ./lib/misc/guide/guide_data.dart:38
+msgid "[模板] 学习四象限工作法 #学习"
+msgstr ""
+
+#: ./lib/misc/guide/guide_data.dart:49
+msgid "[模板] 阅读柳比歇夫的时间统计法《奇特的一生》#阅读 "
+msgstr ""
+
+#: ./lib/misc/guide/guide_data.dart:95
+msgid "阅读"
+msgstr ""
+
+#: ./lib/misc/guide/guide_data.dart:81
+msgid "[模板] 阅读柳比歇夫的时间统计法《奇特的一生》 #阅读"
+msgstr ""
+
+#: ./lib/misc/guide/guide_data.dart:93
+msgid "[模板] 撰写读书笔记:《奇特的一生》 #阅读"
+msgstr ""
+
+#: ./lib/misc/fn_dialog.dart:118
+msgid "Confirm"
+msgstr ""
+
+#: ./lib/service/undo_controller.dart:61
+msgid "Cancel"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:104
+msgid "输入要过滤的字段"
+msgstr ""
+
+#: ./lib/misc/HotKeyService.dart:78
+msgid "修改快捷键为:%s"
+msgstr ""
+
+#: ./lib/misc/date_utils.dart:64
+msgid "Today"
+msgstr ""
+
+#: ./lib/misc/date_utils.dart:67
+msgid "Yesterday"
+msgstr ""
+
+#: ./lib/misc/date_utils.dart:68
+msgid "Yesterday %s"
+msgstr ""
+
+#: ./lib/component/misc/task_editor.dart:204
+msgid "enter you want to focus on"
+msgstr ""
+
+#: ./lib/component/misc/task_editor.dart:506
+msgid "ago"
+msgstr ""
+
+#: ./lib/screens/mobile/timeblock/promodo_end_widget_mobile.dart:104
+msgid "未指定任务"
+msgstr ""
+
+#: ./lib/component/short_cut/hotkey_recorder.dart:95
+msgid "未绑定快捷键"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:432
+msgid "删除"
+msgstr ""
+
+#: ./lib/component/timer/pomodoro_edit.dart:115
+msgid "累计休息时间"
+msgstr ""
+
+#: ./lib/component/timer/promodo_edit_time.dart:100
+msgid "开始时间"
+msgstr ""
+
+#: ./lib/component/timer/promodo_edit_time.dart:108
+msgid "Last End"
+msgstr ""
+
+#: ./lib/component/timer/promodo_edit_time.dart:173
+msgid "持续时间"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:543
+msgid "取消"
+msgstr ""
+
+#: ./lib/component/timer/promodoro_function.dart:459
+msgid "保存"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_pomodoro_rest.dart:91
+msgid "倒计时"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_pomodoro_rest.dart:93
+msgid "正计时"
+msgstr ""
+
+#: ./lib/component/timer/pomodoro_rest.dart:102
+msgid "结束休息"
+msgstr ""
+
+#: ./lib/component/timer/pomodoro_rest.dart:102
+msgid "跳过休息"
+msgstr ""
+
+#: ./lib/component/timer/pomodoro_rest.dart:114
+msgid "继续休息"
+msgstr ""
+
+#: ./lib/component/timer/pomodoro_rest.dart:114
+msgid "开始休息"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:308
+msgid "结束"
+msgstr ""
+
+#: ./lib/component/timer/pomodoro_play.dart:135
+msgid "休息中"
+msgstr ""
+
+#: ./lib/component/timer/pomodoro_play.dart:150
+msgid "F2编辑任务目标"
+msgstr ""
+
+#: ./lib/screens/mobile/promodo_home_mobile.dart:484
+msgid "休息中..."
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_promodo_play.dart:154
+msgid "当下感悟"
+msgstr ""
+
+#: ./lib/screens/mobile/promodo_home_mobile.dart:648
+msgid "暂停"
+msgstr ""
+
+#: ./lib/screens/mobile/timeblock/promodo_end_widget_mobile.dart:60
+msgid "开始时间大于结束时间"
+msgstr ""
+
+#: ./lib/component/timer/promodo_end_widget.dart:179
+msgid "Take a pause and reflect 🧠"
+msgstr ""
+
+#: ./lib/screens/mobile/timeblock/promodo_end_widget_mobile.dart:132
+msgid "You have focused for "
+msgstr ""
+
+#: ./lib/screens/mobile/timeblock/promodo_end_widget_mobile.dart:142
+msgid " minutes!"
+msgstr ""
+
+#: ./lib/component/timer/promodo_end_widget.dart:251
+msgid "Start Time"
+msgstr ""
+
+#: ./lib/component/timer/promodo_end_widget.dart:315
+msgid "Effective work time"
+msgstr ""
+
+#: ./lib/screens/mobile/timeblock/promodo_end_widget_mobile.dart:249
+msgid "Record your feelings👍"
+msgstr ""
+
+#: ./lib/component/timer/promodo_end_widget.dart:419
+msgid "Submit"
+msgstr ""
+
+#: ./lib/component/timer/promodo_end_widget.dart:429
+msgid "倒计时结束自动提交"
+msgstr ""
+
+#: ./lib/component/timer/promodoro_function.dart:74
+msgid "🚀 虽然有点挑战，但每次失败都是成功的垫脚石！下次会更好！"
+msgstr ""
+
+#: ./lib/component/timer/promodoro_function.dart:75
+msgid "🌪️ 状态有点低迷，但没关系，调整一下，下次重新出发！"
+msgstr ""
+
+#: ./lib/component/timer/promodoro_function.dart:78
+msgid "🌱 表现还不错，下次可以更上一层楼哦！"
+msgstr ""
+
+#: ./lib/component/timer/promodoro_function.dart:79
+msgid "🌈 表现不错，但下次可以更专注一些，期待你的表现！"
+msgstr ""
+
+#: ./lib/component/timer/promodoro_function.dart:82
+msgid "🌟 哇塞，你的表现简直棒极了！继续保持，专注力满分！"
+msgstr ""
+
+#: ./lib/component/timer/promodoro_function.dart:83
+msgid "🎉 你的专注力就像超级英雄一样，无人能敌！"
+msgstr ""
+
+#: ./lib/component/timer/promodoro_function.dart:354
+msgid "格式错误, 请使用 HH:mm 格式"
+msgstr ""
+
+#: ./lib/component/timer/promodoro_function.dart:361
+msgid "格式错误"
+msgstr ""
+
+#: ./lib/component/timer/promodoro_function.dart:416
+msgid "开始时间必须早于结束时间"
+msgstr ""
+
+#: ./lib/component/timer/promodoro_function.dart:253
+msgid "备注"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:123
+msgid "已保存的混音"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:142
+msgid "音频"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:150
+msgid "保存 (%s)"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:159
+msgid "暂停 (%s)"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:166
+msgid "播放 (%s)"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:211
+msgid "%s 保存成功"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget_mobile.dart:261
+msgid "请先下载 %s"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:439
+msgid "重命名"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:262
+msgid "命名为..."
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget_mobile.dart:308
+msgid "PLAY"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget_mobile.dart:311
+msgid "RENAME"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:355
+msgid "新混音命名为.."
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:362
+msgid "未命名"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:381
+msgid "新建混音为..."
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:499
+msgid "[未下载]"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget_mobile.dart:524
+msgid "Downloading"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:555
+msgid "播放失败,请重新下载"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:287
+msgid "播放"
+msgstr ""
+
+#: ./lib/component/audio/audio_mix_widget.dart:526
+msgid "下载中"
+msgstr ""
+
+#: ./lib/component/time_block/timeblock_card.dart:144
+msgid "Total Time"
+msgstr ""
+
+#: ./lib/component/time_block/timeblock_card.dart:257
+msgid "enter you focus on"
+msgstr ""
+
+#: ./lib/component/time_block/timeblock_card.dart:294
+msgid "SAVE"
+msgstr ""
+
+#: ./lib/component/time_block/timeblock_card.dart:316
+msgid "Reflect on the current gains or distractions 🧠"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:59
+msgid "功能"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:63
+msgid "声音"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/fn_week_view.dart:817
+msgid "快捷键"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:71
+msgid "通用"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:157
+msgid "全局快捷键"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:161
+msgid "窗口"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:167
+msgid "应用内快捷键"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:183
+msgid "反馈"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:188
+msgid "功能请求/意见反馈"
+msgstr ""
+
+#: ./lib/screens/mobile/setting/setting_page_mobile.dart:126
+msgid "privacy"
+msgstr ""
+
+#: ./lib/screens/mobile/setting/setting_page_mobile.dart:133
+msgid "terms"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:269
+msgid "应用信息"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:274
+msgid "版本号:%s"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:309
+msgid "Login Out"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:315
+msgid "Login In"
+msgstr ""
+
+#: ./lib/component/setting/setting_page.dart:322
+msgid "Premium membership."
+msgstr ""
+
+#: ./lib/component/setting/setting_dashboard_widget.dart:69
+msgid "自动开始休息"
+msgstr ""
+
+#: ./lib/component/setting/setting_dashboard_widget.dart:73
+msgid "休息后自动启动番茄"
+msgstr ""
+
+#: ./lib/component/setting/setting_dashboard_widget.dart:34
+msgid "核心"
+msgstr ""
+
+#: ./lib/component/setting/setting_mics_widget.dart:32
+msgid "显示/隐藏窗口"
+msgstr ""
+
+#: ./lib/component/setting/setting_mics_widget.dart:54
+msgid "[取消]置顶窗口"
+msgstr ""
+
+#: ./lib/component/setting/setting_mics_widget.dart:87
+msgid "番茄结束后行为"
+msgstr ""
+
+#: ./lib/component/setting/setting_mics_widget.dart:92
+msgid "弹出窗口"
+msgstr ""
+
+#: ./lib/component/setting/setting_mics_widget.dart:96
+msgid "仅置顶"
+msgstr ""
+
+#: ./lib/component/setting/setting_mics_widget.dart:118
+msgid "番茄工作流"
+msgstr ""
+
+#: ./lib/component/setting/setting_mics_widget.dart:125
+msgid "常规式"
+msgstr ""
+
+#: ./lib/component/setting/setting_mics_widget.dart:129
+msgid "渐进式"
+msgstr ""
+
+#: ./lib/component/setting/setting_mics_widget.dart:133
+msgid "自定义"
+msgstr ""
+
+#: ./lib/component/tag/tag_manager_widget.dart:74
+msgid "输入要搜索的标签关键字, 支持拼音搜索"
+msgstr ""
+
+#: ./lib/component/tag/tag_manager_widget.dart:78
+msgid "退出管理"
+msgstr ""
+
+#: ./lib/component/tag/tag_manager_widget.dart:78
+msgid "管理"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:514
+msgid "全选"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:517
+msgid "全不选"
+msgstr ""
+
+#: ./lib/component/stats/table_stats_card2.dart:190
+msgid "比例"
+msgstr ""
+
+#: ./lib/component/stats/table_stats_card2.dart:205
+msgid "总时间"
+msgstr ""
+
+#: ./lib/screens/mobile/stats/stats_page_mobile.dart:204
+msgid "Tag"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/widget/stats_card.dart:74
+msgid "总专注"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/widget/stats_card.dart:82
+msgid "平均专注/天"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/widget/stats_card.dart:78
+msgid "总休息"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/widget/stats_card.dart:86
+msgid "平均休息/天"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_pomodoro_rest.dart:66
+msgid "切换休息类型"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_promodo_play.dart:229
+msgid "STOP"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_promodo_play.dart:241
+msgid "DISCARD"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_pomodoro_rest.dart:276
+msgid "over time"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_promodo_play.dart:232
+msgid "REST"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_promodo_play.dart:238
+msgid "NEXT TASK"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_promodo_play.dart:396
+msgid "pause"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_promodo_play.dart:465
+msgid "点击编辑"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_promodo_play.dart:494
+msgid "更换音频"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_promodo_play.dart:499
+msgid "UnMute"
+msgstr ""
+
+#: ./lib/screens/desktop/dasboard/_promodo_play.dart:499
+msgid "Mute"
+msgstr ""
+
+#: ./lib/screens/desktop/promodo_time_widget.dart:166
+msgid "已经休息"
+msgstr ""
+
+#: ./lib/screens/desktop/promodo_time_widget.dart:166
+msgid "距离上次番茄"
+msgstr ""
+
+#: ./lib/screens/desktop/promodo_time_widget.dart:221
+msgid "小窗模式"
+msgstr ""
+
+#: ./lib/screens/desktop/promodo_time_widget.dart:225
+msgid "End Session"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_page_destop.dart:106
+msgid "No tagValue"
+msgstr ""
+
+#: ./lib/screens/mobile/stats/stats_page_mobile.dart:217
+msgid "Emotion"
+msgstr ""
+
+#: ./lib/screens/mobile/stats/stats_page_mobile.dart:236
+msgid "Task"
+msgstr ""
+
+#: ./lib/screens/mobile/stats/stats_page_mobile.dart:247
+msgid "未指定"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/widget/stats_card.dart:33
+msgid "时间统计"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/widget/stats_card.dart:64
+msgid "专注"
+msgstr ""
+
+#: ./lib/model/time_block.dart:278
+msgid "休息"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/fn_text_stats_view.dart:48
+msgid "分组"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/fn_text_stats_view.dart:52
+msgid "按周"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/fn_text_stats_view.dart:53
+msgid "按日期"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/fn_text_stats_view.dart:54
+msgid "按标签"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:151
+msgid "时序"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:159
+msgid "摘要"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:192
+msgid "DEBUG"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:195
+msgid "复制为纯文本"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:238
+msgid "您完成的番茄钟会如上所示哦👆"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:327
+msgid "重新开始"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:349
+msgid "开始"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:400
+msgid "标签筛选"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:433
+msgid "删除 %s ?"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:443
+msgid "标签重命名"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/stats_widget.dart:507
+msgid "搜索过滤标签"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/fn_week_view.dart:156
+msgid "是否开始?"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/fn_week_view.dart:159
+msgid "结束时间在将来"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/fn_week_view.dart:176
+msgid "剩余:%sm"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/fn_week_view.dart:190
+msgid "未保存"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/fn_week_view.dart:651
+msgid "努力开发中,暂不支持添加到未来..."
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:21
+msgid "聚焦到当前时间"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:29
+msgid "缩放"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:35
+msgid "快捷缩放 1.5"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:45
+msgid "快捷缩放 1.0"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:55
+msgid "快捷缩放 0.6"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:63
+msgid "快捷添加"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:69
+msgid "添加番茄"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:80
+msgid "网格添加"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:113
+msgid "快捷选择"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:119
+msgid "选中今日"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:129
+msgid "选中近3天"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:139
+msgid "选中本周"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:149
+msgid "过滤标签"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:160
+msgid "MISC"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:166
+msgid "展示本页快捷键"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:176
+msgid "跳转设置"
+msgstr ""
+
+#: ./lib/screens/desktop/stats/keyboard_widget.dart:186
+msgid "切换mini窗口"
+msgstr ""
+
+#: ./lib/screens/mobile/promodo_home_mobile.dart:403
+msgid "记录专注笔记"
+msgstr ""
+
+#: ./lib/screens/mobile/promodo_home_mobile.dart:421
+msgid "记录当下的收获或是分心的事情👂🏻"
+msgstr ""
+
+#: ./lib/screens/mobile/promodo_home_mobile.dart:500
+msgid "记录你的想法、领悟或困惑"
+msgstr ""
+
+#: ./lib/screens/mobile/promodo_home_mobile.dart:690
+msgid "No Task"
+msgstr ""
+
+#: ./lib/screens/mobile/promodo_home_mobile.dart:692
+msgid "No Tag"
+msgstr ""
+
+#: ./lib/screens/mobile/auth/sign_up.dart:48
+msgid "登入出现问题请稍后再试"
+msgstr ""
+
+#: ./lib/screens/mobile/auth/sign_up.dart:139
+msgid "Login timeout. Please try again later."
+msgstr ""
+
+#: ./lib/screens/mobile/timeblock/promodo_end_widget_mobile.dart:286
+msgid "提交"
+msgstr ""
+
+#: ./lib/screens/mobile/setting/setting_page_mobile.dart:108
+msgid "version: %s"
+msgstr ""
+
+#: ./lib/screens/mobile/stats/stats_card_by_emotion_mobile.dart:33
+msgid "番茄分布统计"
+msgstr ""
+
+#: ./lib/screens/mobile/stats/stats_card_by_emotion_mobile.dart:42
+msgid "此时间段无番茄"
+msgstr ""
+
+#: ./lib/screens/mobile/stats/stats_page_mobile.dart:49
+msgid "专注报告"
+msgstr ""
+
+#: ./lib/screens/mobile/stats/stats_page_mobile.dart:209
+msgid "No tag"
+msgstr ""
+
+#: ./lib/updater.dart:16
+msgid "更新"
+msgstr ""
+
+#: ./lib/updater.dart:17
+msgid "有新版本包需要下载"
+msgstr ""
+
+#: ./lib/service/system_tray_service.dart:37
+msgid "展示"
+msgstr ""
+
+#: ./lib/service/system_tray_service.dart:38
+msgid "隐藏"
+msgstr ""
+
+#: ./lib/service/system_tray_service.dart:41
+msgid "取消置顶"
+msgstr ""
+
+#: ./lib/service/system_tray_service.dart:41
+msgid "置顶"
+msgstr ""
+
+#: ./lib/service/system_tray_service.dart:54
+msgid "😘反馈"
+msgstr ""
+
+#: ./lib/service/system_tray_service.dart:59
+msgid "设置"
+msgstr ""
+
+#: ./lib/service/system_tray_service.dart:68
+msgid "统计"
+msgstr ""
+
+#: ./lib/service/system_tray_service.dart:78
+msgid "退出"
+msgstr ""
+
+#: ./lib/service/setting_service.dart:66
+msgid "Common"
+msgstr ""
+
+#: ./lib/service/setting_service.dart:80
+msgid "Debug"
+msgstr ""
+
+#: ./lib/service/setting_service.dart:94
+msgid "Progressive"
+msgstr ""
+
+#: ./lib/service/setting_service.dart:108
+msgid "Custom"
+msgstr ""
+
+#: ./lib/service/tag_store.dart:164
+msgid "create #%s"
+msgstr ""
+
+#: ./lib/service/pomodoro_controller.dart:263
+msgid "%s min Rest End"
+msgstr ""
+
+#: ./lib/service/pomodoro_controller.dart:263
+msgid "%s min Focus End"
+msgstr ""
+
+#: ./lib/service/pomodoro_controller.dart:264
+msgid "It's time to start resting."
+msgstr ""
+
+#: ./lib/service/pomodoro_controller.dart:264
+msgid "It's time to start focusing."
+msgstr ""
+
+#: ./lib/service/pomodoro_controller.dart:316
+msgid "over time "
+msgstr ""
+
+#: ./lib/service/pomodoro_controller.dart:552
+msgid "discard this focus"
+msgstr ""
+
+#: ./lib/service/pomodoro_controller.dart:565
+msgid "discard this rest"
+msgstr ""
+
+#: ./lib/service/pomodoro_controller.dart:672
+msgid "you need more rest"
+msgstr ""
+
+#: ./lib/service/pomodoro_controller.dart:682
+msgid "You have been focusing for %s minutes straight. Take a longer break now."
+msgstr ""
+
+#: ./lib/service/fn_audioservice.dart:39
+msgid "海浪"
+msgstr ""
+
+#: ./lib/service/fn_audioservice.dart:92
+msgid "volume"
+msgstr ""
+
+#: ./lib/service/fn_audioservice.dart:241
+msgid "音频还未下载"
+msgstr ""
