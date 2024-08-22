@@ -23,18 +23,19 @@ An open-source, cross-platform Pomodoro timer based on the flowtime-technique.
 - 🎶 Multiple white noise options to choose from & customize your own mixed white noise.
 - 💥Platform support across all devices.
 - ⌛ Customizable focus session time, you are in control of your time.
-- 👍Switch to the next task when the remaining time runs out.
+- 👍 The next task inherits the remaining time from the current task.
 - 〽️ History, statistics, and charts track your progress through any period.
 - 📊 Focus time distribution by tags.
 - ...
 
 ## Why to Build Zendoro APP
-Heartflow Interruption: Frustrated when your flow state is interrupted?
-Unwanted Breaks: Hate when you're forced to take a break and lose your momentum?
-Flexible Time Needs: Feel 25 minutes is too short? Want the freedom to choose your own time?
-Keyboard Lover: Prefer keyboard shortcuts over using the mouse?
-👇🏼
-So, I created Zendoro.
+- Heartflow Interruption: Frustrated when your flow state is interrupted?
+- Unwanted Breaks: Hate when you're forced to take a break and lose your momentum?
+- Flexible Time Needs: Feel 25 minutes is too short? Want the freedom to choose your own time?
+- Keyboard Lover: Prefer keyboard shortcuts over using the mouse?
+
+👇🏼  
+So, I created Zendoro.  
 
 ## Feedback / Contact Us
 Feedback Form: https://t2bj3wxiaa.feishu.cn/share/base/form/shrcnG4NY19N0IfVRkyuh0iWm7f
