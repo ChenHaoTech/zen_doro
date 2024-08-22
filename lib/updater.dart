@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_pasteboard/misc/extension.dart';
 import 'package:flutter_pasteboard/misc/fn_const.dart';
 import 'package:flutter_pasteboard/misc/fnUrlUtils.dart';
 import 'package:flutter_pasteboard/misc/fn_dialog.dart';
@@ -16,7 +17,7 @@ void tryUpdateDialog() async {
         title: "更新".i18n,
         content: ListTile(
           title: Text("有新版本包需要下载".i18n),
-          subtitle: !kDebugMode ? null : Text("${FnConst.version}=>${newestVersion}").opacity(.3),
+          subtitle: debugWidget(() => Text("${FnConst.version}=>${newestVersion}").opacity(.3)),
         ).boxConstraints(maxWidth: 240),
         cancelTxt: "Not Now".i18n,
         confirmWidget: ElevatedButton(

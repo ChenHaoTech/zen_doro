@@ -54,7 +54,7 @@ class TimeBlockTimeLineState extends State<TimeBlockTimeLine> {
           length: tag2Tbs.length,
           child: Column(
             children: [
-              if (kDebugMode) Text("${_minTime()} ${_maxTime()}"),
+              debugWidget(() => Text("${_minTime()} ${_maxTime()}")),
               gap8,
               Row(
                 children: [
@@ -200,7 +200,7 @@ class TimeBlockTimeLineState extends State<TimeBlockTimeLine> {
                   ),
                   () => $zenService.remove(e)
                 ),
-                if (kDebugMode) (Text("Mobile Edit".i18n), () => _updateTb(e)),
+                if (kAnyDebug) (Text("Mobile Edit".i18n), () => _updateTb(e)),
               ]);
             });
           }));

@@ -110,7 +110,7 @@ abstract class GuideData {
     var end = _endTime;
     var start = _endTime.subtract(progressSeconds.seconds);
     // DebugUtils.log("guide_data:118 ${_endTime} ,${start}, ${end} \n${StackTrace.current}");
-    _endTime = start;
+    _endTime = start.subtract(25.minutes);
     var list = (logs?.mapToList((i) {
           var d = m.Random().nextDouble() * progressSeconds;
           return i.copyWith(time: start.add(d.seconds));
@@ -141,7 +141,7 @@ abstract class GuideData {
   }) {
     var end = _endTime;
     var start = _endTime.subtract(restSeconds.seconds);
-    _endTime = start;
+    _endTime = start.subtract(25.minutes);
     return TimeBlock.emptyCountDownRest()
         .updateRest(
           mapper: (rest) => rest.copyWith(

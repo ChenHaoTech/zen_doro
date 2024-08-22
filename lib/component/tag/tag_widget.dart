@@ -26,13 +26,14 @@ class _TagPageMobileState extends State<TagPageMobile> {
       appBar: AppBar(
         title: Text("修改标签".i18n),
         actions: [
-          if (kDebugMode)
-            IconButton(
+          debugWidget(
+            () => IconButton(
                 onPressed: () {
                   var cnt = AppDatabase.get.tagTb.deleteAll();
                   BotToast.showText(text: "delete %s".i18n.fill([cnt]));
                 },
                 icon: Icon(Icons.delete_outline)),
+          )
         ],
       ),
       body: _buildBody(),

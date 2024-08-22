@@ -5,9 +5,11 @@ import 'package:bot_toast/bot_toast.dart';
 import 'package:collection/collection.dart';
 import 'package:daily_extensions/daily_extensions.dart';
 import 'package:dart_utils_extension/dart_utils_extension.dart';
+import 'package:device_preview/device_preview.dart';
 import 'package:drift/drift.dart';
 import 'package:drift_db_viewer/drift_db_viewer.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter_pasteboard/component/editor/time_eidtor.dart';
 import 'package:flutter_pasteboard/component/fn_popMenu.dart';
 import 'package:flutter_pasteboard/component/misc/fn_check_list.dart';
@@ -19,6 +21,7 @@ import 'package:flutter_pasteboard/misc/download_utils.dart';
 import 'package:flutter_pasteboard/misc/error_utils.dart';
 import 'package:flutter_pasteboard/misc/extension.dart';
 import 'package:flutter_pasteboard/misc/feedback_utils.dart';
+import 'package:flutter_pasteboard/misc/fnUrlUtils.dart';
 import 'package:flutter_pasteboard/misc/fn_bottomsheet.dart';
 import 'package:flutter_pasteboard/misc/fn_const.dart';
 import 'package:flutter_pasteboard/misc/fn_email_utils.dart';
@@ -211,6 +214,9 @@ abstract class DebugPopUpConfig {
       PopUpMenuConfig.diver(),
       PopUpMenuConfig.textBtn("showTextSnackBar", () {
         FnNotification.showTextSnackBar(text: 'fuck');
+      }),
+      PopUpMenuConfig.textBtn("open disk folder", () {
+        FnUriUtils.openDir(applicationDocumentsDirectory);
       }),
       PopUpMenuConfig.textBtn("异常 toast", () {
         ErrorUtils.toast("fuck", stacktrace: StackTrace.current);
