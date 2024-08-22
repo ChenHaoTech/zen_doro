@@ -16,11 +16,13 @@ String debugString(String? debug) {
 }
 
 Widget debugStrWidget(dynamic Function() supplier) {
-  if (!kDebugMode) return emptyWidget;
-  return Obx(() => Text(supplier.call().toString()));
+  return debugWidget(() => Text(supplier.call().toString()));
 }
 
+bool hideDebugWidget = false;
+
 Widget debugWidget(Widget Function() supplier) {
+  if (hideDebugWidget) return emptyWidget;
   if (!kDebugMode) return emptyWidget;
   return Obx(() => supplier.call());
 }

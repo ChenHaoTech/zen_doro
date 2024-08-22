@@ -1,4 +1,4 @@
-const i18n_en_us = {
+const Map<String, String> i18n_en_us = {
   "退出": "Exit",
   "Login In": "Login",
   "Emotion": "Emotion",
@@ -241,6 +241,7 @@ const i18n_en_us = {
   "最大休息时间(单位分钟)": "Maximum rest time (in minutes).",
   "放弃该专注//完成当前专注": "Abandon this focus.",
   "删除引导数据": "Delete guide data.",
+  "休息时间=累计专注时间除去对应的值, 例如: 专注25分钟, 休息 (25/%s) 分钟":
       "Rest time = Accumulated focus time divided by specified value. Example: Focus 25 minutes, rest for (25/%s) minutes.",
   "Home": "Home",
   "下一个专注": "Next focus.",

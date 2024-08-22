@@ -173,7 +173,7 @@ class SyncHelper extends GetxController {
           });
       state.value = SyncState.success;
     } catch (e) {
-      this.log.e("fail sync, ", e, current);
+      this.log.e("fail sync, \n${current}", e);
       state.value = SyncState.failure;
     }
   }

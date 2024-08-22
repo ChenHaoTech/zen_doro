@@ -183,14 +183,13 @@ class _PomodoroHomeMobileState extends State<PomodoroHomeMobile> with ITimeBlock
             return icon;
           }),
           // _buildTitle().expand(),
-          if (kAnyDebug)
-            FnPopUpMenu(
-              configs: [
-                if (kAnyDebug) ...DebugPopUpConfig.mobilePopConfgs(context),
-                if (kAnyDebug) ...DebugPopUpConfig.deskTopPopConfgs(context),
-              ],
-              child: Icon(Icons.developer_mode_outlined),
-            ),
+          debugWidget(() => FnPopUpMenu(
+                configs: [
+                  ...DebugPopUpConfig.mobilePopConfgs(context),
+                  ...DebugPopUpConfig.deskTopPopConfgs(context),
+                ],
+                child: Icon(Icons.developer_mode_outlined),
+              )),
           Obx(() {
             var configs = [
               PopUpMenuConfig.textBtn("应用内反馈".i18n, () {
@@ -244,7 +243,7 @@ class _PomodoroHomeMobileState extends State<PomodoroHomeMobile> with ITimeBlock
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           gap12,
-          if (kDebugMode) Obx(() => Text("${tbRxAdaptive.value.durationSeconds / 60} min")),
+          debugWidget(() => Text("${tbRxAdaptive.value.durationSeconds / 60} min")),
           (state.isRest ? _buildRestClock() : _buildClockBody(context, state)).expand(),
           FnObxValue(
               () => SizedBox(

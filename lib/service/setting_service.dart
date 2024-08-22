@@ -207,7 +207,7 @@ class SettingService extends GetxController implements SettingChangeListener {
 
   late final SettingHolder<String> promodoProfile = _build(
     "pomodoroProfile",
-    Rx<String>(kDebugMode ? SettingConst.debug : SettingConst.common),
+    Rx<String>(SettingConst.common),
     title: "Pomodoro Profile".i18n,
     description: "Profile for Pomodoro settings".i18n,
     type: SettingType.custom,

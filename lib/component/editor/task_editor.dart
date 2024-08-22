@@ -136,14 +136,15 @@ mixin TaskEditorMixin {
   }
 
   Future<List<Tag>> _onUpdateTags(String hashHint) async {
+    hashHint = hashHint.remove("#");
     late List<Tag> list;
+    var current = StackTrace.current;
     if (hashHint.isEmpty) {
       list = await TagStore.find.recent();
     } else {
       list = await TagStore.find.search(hashHint.remove("#"));
     }
     var hashList = list;
-    fnassert(() => !hashHint.startsWith("#"), hashHint);
     _tags.value = hashList;
     if (!hashHint.isEmpty && !hashList.any((i) => i.value == hashHint)) {
       _tags.add(Tag.empty(hashHint));

@@ -81,11 +81,10 @@ class _PromodoTimeWidgetDesktopState extends State<PromodoTimeWidgetDesktop> {
           },
         ).opacity(.4),
         gap12,
-        if (kAnyDebug)
-          FnPopUpMenu(child: Icon(Icons.auto_fix_high), configs: [
-            ...DebugPopUpConfig.deskTopPopConfgs(context),
-            ...DebugPopUpConfig.mobilePopConfgs(context),
-          ]),
+        debugWidget(() => FnPopUpMenu(child: Icon(Icons.auto_fix_high), configs: [
+              ...DebugPopUpConfig.deskTopPopConfgs(context),
+              ...DebugPopUpConfig.mobilePopConfgs(context),
+            ])),
         Obx(() {
           return GuidePopWrapper(configs: [
             // PopUpMenuConfig.withShortcur("小窗模式".i18n, keySet: FnActions.ToggleMiniWindow.keySet, () async {

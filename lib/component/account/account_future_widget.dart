@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_pasteboard/misc/extension.dart';
 import 'package:flutter_pasteboard/service/account/account_service.dart';
 
 class AccountFuture extends StatelessWidget {
@@ -17,7 +18,7 @@ class AccountFuture extends StatelessWidget {
           } else if (snapshot.hasError) {
             return Icon(Icons.error_outline);
           } else {
-            return CircularProgressIndicator();
+            return emptyWidget;
           }
         });
   }

@@ -252,7 +252,7 @@ abstract mixin class CountDownWidgetMixin {
             "${FnDateUtils.formatDuration_hh_mm(duration)}",
             style: timeStyle?.copyWith(
               color: timeStyle?.color?.withOpacity($zenService.state == PomodoroState.FocusPause ? .4 : 1),
-              fontSize: min(Get.width, constraints.maxWidth) * .2,
+              fontSize: min(min(Get.width, constraints.maxWidth) * .2, 96),
             ),
           ).inkWell(onTap: () {
             onTimeTextTap();
