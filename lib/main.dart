@@ -12,6 +12,7 @@ import 'package:flutter_pasteboard/component/short_cut/h_shortcut_widget.dart';
 import 'package:flutter_pasteboard/component/time_block_widget/timeblock_function.dart';
 import 'package:flutter_pasteboard/global_future.dart';
 import 'package:flutter_pasteboard/misc/HotKeyService.dart';
+import 'package:flutter_pasteboard/misc/debugUtils.dart';
 import 'package:flutter_pasteboard/misc/debug_function.dart';
 import 'package:flutter_pasteboard/misc/env_param_utils.dart';
 import 'package:flutter_pasteboard/misc/extension.dart';
@@ -72,11 +73,10 @@ Future<Box> initFlutter([String? subDir]) async {
 
 void _handlei18n() {
   i18n.Translations.missingTranslationCallback = (Object? key, String locale) {
-    //todo 本地化todo
-    // logger.e("没有 ${locale}:${key} 的翻译");
+    DebugUtils.toast("没有 ${locale}:${key} 的翻译");
   };
   i18n.Translations.missingKeyCallback = (Object? key, String locale) {
-    // logger.e("没有 ${locale}:${key} 的翻译");
+    DebugUtils.toast("没有 ${locale}:${key} 的翻译");
   };
 }
 
