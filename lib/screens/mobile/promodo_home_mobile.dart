@@ -657,6 +657,7 @@ class GuidePopWrapper extends StatelessWidget {
             if (hasData) {
               return Badge(
                 label: Text("1"),
+                alignment: Alignment.topLeft,
                 child: fnPopUpMenu,
               );
             }

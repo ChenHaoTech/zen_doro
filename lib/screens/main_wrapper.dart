@@ -1,5 +1,7 @@
 import 'package:bot_toast/bot_toast.dart';
+import 'package:dart_utils_extension/dart_utils_extension.dart';
 import 'package:device_preview/device_preview.dart';
+import 'package:device_preview_screenshot/device_preview_screenshot.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -10,11 +12,13 @@ import 'package:flutter_pasteboard/misc/extension.dart';
 import 'package:flutter_pasteboard/misc/fn_notification.dart';
 import 'package:flutter_pasteboard/misc/fn_platform_utils.dart';
 import 'package:flutter_pasteboard/misc/i18n/!!export.dart';
+import 'package:flutter_pasteboard/misc/log/logger_extension.dart';
 import 'package:flutter_pasteboard/screens/binding/bindings.dart';
 import 'package:flutter_portal/flutter_portal.dart';
 import 'package:get/get.dart';
 import 'package:i18n_extension/i18n_extension.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+import 'package:screenshot/screenshot.dart';
 import 'package:ui_extension/ui_extension.dart';
 import 'package:wiredash/wiredash.dart';
 
@@ -34,6 +38,17 @@ class MainAppWrapper extends StatelessWidget {
   Widget build(BuildContext context) {
     final botToastBuilder = BotToastInit(); //1.
     return DevicePreview(
+      tools: [
+        ...DevicePreview.defaultTools,
+        DevicePreviewScreenshot(
+          onScreenshot: (
+            BuildContext context,
+            DeviceScreenshot screenshot,
+          ) async {
+            await screenshot.saveAsFile();
+          },
+        ),
+      ],
       enabled: !kReleaseMode && PlatformUtils.isDesktop,
       builder: (BuildContext context) {
         return _buildInner(context, botToastBuilder);
@@ -87,5 +102,40 @@ class MainAppWrapper extends StatelessWidget {
               );
               return DevicePreview.appBuilder.call(context, Portal(child: decorator?.call(context, $child) ?? $child));
             }));
+  }
+}
+
+class ScreenShotWrapper extends StatelessWidget {
+  final ScreenshotController controller;
+  final Widget child;
+  final String? debug;
+
+  const ScreenShotWrapper({
+    super.key,
+    required this.controller,
+    required this.child,
+    this.debug,
+  });
+
+  static ScreenShotWrapper of(BuildContext context) {
+    final ScreenShotWrapper? result = mayBeOf(context);
+    assert(result != null, 'No ScreenShotConfig found in context');
+    return result!;
+  }
+
+  static ScreenShotWrapper? mayBeOf(BuildContext context) {
+    var result = context.findAncestorWidgetOfExactType<ScreenShotWrapper>();
+    if (result?.debug != null) {
+      result!.log.dd(() => "[${result.debug} find ${result.debugKey}]");
+    }
+    return result;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Screenshot(
+      controller: controller,
+      child: child,
+    );
   }
 }

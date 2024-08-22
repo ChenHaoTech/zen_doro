@@ -3,14 +3,17 @@ import 'dart:convert';
 import 'dart:developer' as devtools show log;
 import 'dart:math';
 import 'dart:ui' as ui;
+import 'dart:ui';
 
 import 'package:audioplayers/audioplayers.dart';
 import 'package:daily_extensions/daily_extensions.dart' hide DateTimeX;
 import 'package:dart_utils_extension/dart_utils_extension.dart';
 import 'package:date_time_format/date_time_format.dart';
+import 'package:device_preview_screenshot/device_preview_screenshot.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart' as material show Image, ImageConfiguration, ImageStreamListener;
 import 'package:flutter/material.dart';
+import 'package:flutter_pasteboard/main.dart';
 import 'package:flutter_pasteboard/misc/date_utils.dart';
 import 'package:flutter_pasteboard/misc/debugUtils.dart';
 import 'package:flutter_pasteboard/misc/fn_keys.dart';
@@ -655,5 +658,22 @@ extension NumExt on int {
 
   int ensureMin(int min) {
     return this < min ? min : this;
+  }
+}
+
+extension DeviceScreenshotExt on DeviceScreenshot {
+  Future saveAsFile() async {
+    // Get the directory to store the file
+    final Directory dir = applicationDocumentsDirectory;
+
+    // Create the file
+    fnassert(() => this.format == ImageByteFormat.png, this.format);
+    final File file = File('${dir.path}/screenshot/${this.device.name}.png');
+    await file.create(recursive: true);
+
+    // Write the byte data to the file
+    await file.writeAsBytes(this.bytes);
+    this.log.dd(() => "saveAsFile, file:${file.path},${this.device}");
+    return file;
   }
 }

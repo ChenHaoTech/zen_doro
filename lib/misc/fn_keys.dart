@@ -184,6 +184,7 @@ abstract class FnKeys {
   static late final LogicalKeySet cmdMinus = LogicalKeySet(FnKeys.metaOrCtrl, LogicalKeyboardKey.minus);
   static late final LogicalKeySet f12 = LogicalKeySet(LogicalKeyboardKey.f12);
   static late final LogicalKeySet f11 = LogicalKeySet(LogicalKeyboardKey.f11);
+  static late final LogicalKeySet f10 = LogicalKeySet(LogicalKeyboardKey.f10);
   static late final LogicalKeySet cmdQ = LogicalKeySet(FnKeys.metaOrCtrl, LogicalKeyboardKey.keyQ);
   static late final LogicalKeySet shiftEnter = LogicalKeySet(LogicalKeyboardKey.shift, LogicalKeyboardKey.enter);
 

@@ -35,7 +35,6 @@ import 'package:flutter_pasteboard/service/sync/supabase/supabase_service.dart';
 import 'package:flutter_pasteboard/service/system_tray_service.dart';
 import 'package:flutter_pasteboard/service/window_service.dart';
 import 'package:flutter_pasteboard/single_service.dart';
-import 'package:flutter_pasteboard/theme/theme.dart';
 import 'package:flutter_pasteboard/updater.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';

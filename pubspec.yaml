@@ -134,6 +134,8 @@ dependencies:
   flutter_timezone: ^1.0.8
   badges: ^3.1.2
   auto_size_text: ^3.0.0
+  screenshot: ^2.5.0
+  device_preview_screenshot: ^1.0.0
 
 dev_dependencies:
   drift_dev: ^2.12.1
