@@ -3,7 +3,7 @@
 
 An open-source, cross-platform Pomodoro timer based on the flowtime-technique.
 ## Download 
-
+[![Codemagic build status](https://api.codemagic.io/apps/66c728cd97efabd8a17f4fd7/66c728cd97efabd8a17f4fd6/status_badge.svg)](https://codemagic.io/app/66c728cd97efabd8a17f4fd7/66c728cd97efabd8a17f4fd6/latest_build)
 - Android
     - https://github.com/ChenHaoTech/ZenDoro/releases
 - IOS
