@@ -1,0 +1,3 @@
+[submodule "appstore"]
+	path = appstore
+	url = https://github.com/ChenHaoTech/zendoro_appstore.git
