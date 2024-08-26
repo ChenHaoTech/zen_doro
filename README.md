@@ -1,7 +1,15 @@
 ## Zendoro
 [简体中文](./doc/README_ch.md)
 
-An open-source, cross-platform Pomodoro timer based on the flowtime-technique.
+An open-source, cross-platform Pomodoro timer based on the flowtime-technique.  
+
+<p style="text-align: center;">
+    <img alt="desktop" src="./doc/desktop.mp4 ">
+</p>   
+
+<p style="text-align: center;">
+    <img alt="mobile" src="./doc/mobile.mp4 ">
+</p>   
 ## Download 
 [![Codemagic build status](https://api.codemagic.io/apps/66c728cd97efabd8a17f4fd7/66c728cd97efabd8a17f4fd6/status_badge.svg)](https://codemagic.io/app/66c728cd97efabd8a17f4fd7/66c728cd97efabd8a17f4fd6/latest_build)
 - Android
