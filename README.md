@@ -3,19 +3,8 @@
 
 An open-source, cross-platform Pomodoro timer based on the flowtime-technique.  
 
-<p style="text-align: center;">
-    <video width="320" height="240" controls>
-        <source src="./doc/desktop.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</p>
-
-<p style="text-align: center;">
-    <video width="320" height="240" controls>
-        <source src="./doc/mobile.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</p>
+![desktop](./doc/desktop_new.gif)
+![mobile](./doc/mobile_new.gif)
 
 
 ## Download 
