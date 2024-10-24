@@ -29,7 +29,7 @@ When practicing the Pomodoro Technique, I didn't feel an increase in productivit
 
 - **Cross-Platform Pomodoro Timer**
   - 👉 Supports web, Android, iOS, and Windows (🚧) --- Implemented with Flutter.
-    - [Zendoro Download Link](https://t2bj3wxiaa.feishu.cn/wiki/EP6IwrQbUiXlmhk8JqCcBIrgnVd?from=from_copylink)
+    - [Zendoro Download Link](https://github.com/ChenHaoTech/ZenDoro/blob/main/doc/Install.md)
 
 ### Other Highlights
 - Window always on top during focus and break times
@@ -39,7 +39,17 @@ When practicing the Pomodoro Technique, I didn't feel an increase in productivit
 
 ## 😘 Support Us
 - Join the beta testing group and become a stakeholder 👉 [🚧 Beta Testing Group 🚧](https://discord.gg/Katudef8)
-
+## Install
+- Android
+    - [https://github.com/ChenHaoTech/ZenDoro/releases](https://github.com/ChenHaoTech/ZenDoro/releases)
+- IOS
+    - [https://apps.apple.com/cn/app/zendoro-%E7%A6%85%E9%92%9F/id6504215286?mt=12](https://apps.apple.com/cn/app/zendoro-%E7%A6%85%E9%92%9F/id6504215286?mt=12)
+- Mac
+    - [https://apps.apple.com/cn/app/zendoro-%E7%A6%85%E9%92%9F/id6504215286?mt=12](https://apps.apple.com/cn/app/zendoro-%E7%A6%85%E9%92%9F/id6504215286?mt=12)
+- Windows
+    - 🚧
+- Web(beta)
+    - [https://zendoro.vercel.app/](https://zendoro.vercel.app/)
 
 ## 💥 Coming Soon
 Next, I plan to develop:
