@@ -38,7 +38,7 @@ When practicing the Pomodoro Technique, I didn't feel an increase in productivit
 - 😢 Statistics on time distribution based on emotional feedback
 
 ## 😘 Support Us
-- Join the beta testing group and become a stakeholder 👉 [🚧 Beta Testing Group 🚧](https://qm.qq.com/q/XOzXFUdjmE)
+- Join the beta testing group and become a stakeholder 👉 [🚧 Beta Testing Group 🚧](https://discord.gg/Katudef8)
 
 
 ## 💥 Coming Soon
