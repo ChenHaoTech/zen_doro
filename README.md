@@ -1,47 +1,49 @@
 ## Zendoro
 [简体中文](./doc/README_ch.md)
 
-An open-source, cross-platform Pomodoro timer based on the flowtime-technique.  
+# Hate Being Interrupted, So I Made This Pomodoro Timer
 
-![desktop](./doc/desktop_new.gif)
-![mobile](./doc/mobile_new.gif)
+When practicing the Pomodoro Technique, I didn't feel an increase in productivity and often felt my flow was interrupted, leading to frustration. To solve these issues, I created this app 👇🏼  
+[Zendoro](https://apps.apple.com/cn/app/zendoro-%E7%A6%85%E9%92%9F/id6504215286): A cross-platform Pomodoro timer loved by keyboard enthusiasts that supports the Flowtime technique.
+
+## 🥰 Aha Features
+
+- **Window Focus Logging** I often find myself falling into a rabbit hole, aimlessly browsing the web or watching videos. I need to review my focus after each session.
+  - 👉 I implemented a window focus logging feature.
+    ![Pasted_image_20241024151003.png](https://s2.loli.net/2024/10/24/uQSevsgl76WqKNM.png)
+
+- **Ultimate Keyboard Shortcut Support** I don't want to keep clicking with the mouse; I absolutely love keyboard shortcuts. The existing Pomodoro timers on the market don't satisfy my needs.
+  - 👉 I made my Pomodoro timer support **CMD K** and many other shortcuts!
+    ![](https://s2.loli.net/2024/10/24/UaDrhkmEQVNeslH.gif)
+
+- **Flowtime Technique** I don't want my flow to be interrupted by the Pomodoro timer. Let me rest when I want to rest and continue focusing when I want to focus.
+  - 👉 I adopted the [Flowtime Technique](https://zapier.com/blog/flowtime-technique/) to schedule my breaks: Break time = Focus time / 5 (the break factor of 5 varies from person to person).
+
+- **Customizable White Noise** I don't want to be limited by the predefined audio options. A year ago, I saw the product [ambiphone](https://ambiph.one/), and I knew that if I were to implement a white noise feature, it had to include this.
+  - 👉 I offer various white noise options and customizable white noise mixing. (Custom link feature coming soon, supporting YouTube, Bilibili, etc.)
+    ![Pasted_image_20241024134255.png](https://s2.loli.net/2024/10/24/26krxAQS7yUHpuc.png)
+
+- **Pomodoro Time Inheritance** What to do if you finish your current task and still have 10 minutes left?
+  - 👉 With a `cmd+alt+→`, I can add the remaining time to the next task. I will rest after the current 25 minutes are up.
+    ![Kapture 2024-10-24 at 15.13.48.gif](https://s2.loli.net/2024/10/24/MrTAPf5lvqsQatm.gif)
+
+- **Cross-Platform Pomodoro Timer**
+  - 👉 Supports web, Android, iOS, and Windows (🚧) --- Implemented with Flutter.
+    - [Zendoro Download Link](https://t2bj3wxiaa.feishu.cn/wiki/EP6IwrQbUiXlmhk8JqCcBIrgnVd?from=from_copylink)
+
+### Other Highlights
+- Window always on top during focus and break times
+- 🏷️ Supports task tagging
+- 📊 Statistics on focus time percentage by tag
+- 😢 Statistics on time distribution based on emotional feedback
+
+## 😘 Support Us
+- Join the beta testing group and become a stakeholder 👉 [🚧 Beta Testing Group 🚧](https://qm.qq.com/q/XOzXFUdjmE)
 
 
-## Download 
-[![Codemagic build status](https://api.codemagic.io/apps/66c728cd97efabd8a17f4fd7/66c728cd97efabd8a17f4fd6/status_badge.svg)](https://codemagic.io/app/66c728cd97efabd8a17f4fd7/66c728cd97efabd8a17f4fd6/latest_build)
-- Android
-    - https://github.com/ChenHaoTech/ZenDoro/releases
-- IOS
-    - https://apps.apple.com/cn/app/zendoro-%E7%A6%85%E9%92%9F/id6504215286?mt=12
-- Mac
-    - https://apps.apple.com/cn/app/zendoro-%E7%A6%85%E9%92%9F/id6504215286?mt=12
-- Windows
-    - 🚧
-- Web(beta)
-  - https://zendoro.vercel.app/
-
-## Key Feature 
-- 🧑‍💻Flowtime technique: Do not interrupt the flow state.
-- 🕚Support overtime: Continue without stopping when time is up, until you manually stop.
-- ⏰Overtime reminder: To prevent excessive focus duration.
-- ⌨ Ultimate hotkey support.
-- 🎶 Multiple white noise options to choose from & customize your own mixed white noise.
-- 💥Platform support across all devices.
-- ⌛ Customizable focus session time, you are in control of your time.
-- 👍 The next task inherits the remaining time from the current task.
-- 〽️ History, statistics, and charts track your progress through any period.
-- 📊 Focus time distribution by tags.
-- ...
-
-## Why to Build Zendoro APP
-- Heartflow Interruption: Frustrated when your flow state is interrupted?
-- Unwanted Breaks: Hate when you're forced to take a break and lose your momentum?
-- Flexible Time Needs: Feel 25 minutes is too short? Want the freedom to choose your own time?
-- Keyboard Lover: Prefer keyboard shortcuts over using the mouse?
-
-👇🏼  
-So, I created Zendoro.  
-
-## Feedback / Contact Us
-- Feedback Form: https://t2bj3wxiaa.feishu.cn/share/base/form/shrcnG4NY19N0IfVRkyuh0iWm7f
-- Contact Us: cardztec@gmail.com
+## 💥 Coming Soon
+Next, I plan to develop:
+- Support for directly starting tasks from TickTick or Todoist.
+- AI-powered summaries and reviews of daily focus logs for better daily retrospectives.
+- Interaction with local calendars, including two-way data import.
+- Support for Android and Windows.
